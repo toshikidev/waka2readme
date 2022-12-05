@@ -1,0 +1,26 @@
+name: Unit tests for waka2readme
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          curl -sSL https://install.python-poetry.org | python -
+          export PATH="$HOME/.poetry/bin:${PATH}"
+          poetry install
+      - name: Run unit tests
+        run: |
+          poetry run python -m unittest discover
