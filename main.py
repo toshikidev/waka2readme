@@ -183,8 +183,8 @@ class WakaInput:
 
         if not self._section_name.isalnum():
             logger.warning('Section name must be in any of [[a-z][A-Z][0-9]]')
-            logger.debug('Using default section name: waka')
-            self._section_name = 'wakabox'
+            logger.debug('Using default section name: waka2readme')
+            self._section_name = 'waka2readme'
             self.start_comment = f'<!--START_SECTION:{self._section_name}-->'
             self.end_comment = f'<!--END_SECTION:{self._section_name}-->'
             self.waka_block_pattern = f'{self.start_comment}[\\s\\S]+{self.end_comment}'
