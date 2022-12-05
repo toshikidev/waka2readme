@@ -143,7 +143,7 @@ class WakaInput:
     commit_message: str = os.getenv(
         'INPUT_COMMIT_MESSAGE', 'Updated waka2readme graph with new metrics'
     )
-    _section_name: str = os.getenv('INPUT_SECTION_NAME', 'waka')
+    _section_name: str = os.getenv('INPUT_SECTION_NAME', 'waka2readme')
     start_comment: str = f'<!--START_SECTION:{_section_name}-->'
     end_comment: str = f'<!--END_SECTION:{_section_name}-->'
     waka_block_pattern: str = f'{start_comment}[\\s\\S]+{end_comment}'
