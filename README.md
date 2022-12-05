@@ -1,20 +1,4 @@
-<center>
-
-![waka-readme](https://socialify.git.ci/toshikidev/waka2readme/image?description=1&forks=1&name=1&pulls=1&stargazers=1&theme=Light)
-
-</center>
-
 # Dev Metrics in Readme [![UnitTests](https://github.com/toshikidev/waka2readme/actions/workflows/testing.yml/badge.svg)](https://github.com/toshikidev/waka2readme/actions/workflows/testing.yml)
-
-<center>
-
-[WakaTime](https://wakatime.com) weekly metrics on your profile readme.
-
-![Project Preview](https://user-images.githubusercontent.com/8397274/87243943-e6b45c00-c457-11ea-94c9-2aa0bf241be8.png)
-
-:speech_balloon: **Forum** | [GitHub discussions][gh_discuss]
-
-</center>
 
 ## New to WakaTime?
 
@@ -150,4 +134,3 @@ I am a fan of minimal designs and the profile readme is a great way to show off 
 [profile_readme]: https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme
 [new_secrets_actions]: https://user-images.githubusercontent.com/52720626/151221742-bc37d139-2bb3-4554-b27c-46b107d1f408.png
 [gh_access_token]: https://docs.github.com/en/actions/configuring-and-managing-workflows/authenticating-with-the-github_token
-[gh_discuss]: https://github.com/toshikidev/waka2readme/discussions
