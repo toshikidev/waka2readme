@@ -27,7 +27,7 @@ jobs:
       - name: Codecov
         run: |
           pip install coverage
-          coverage run -m unittest test.py
+          coverage run poetry -m unittest discover
       - name: Upload Coverage to Codecov
         uses: codecov/codecov-action@v2
         env:
