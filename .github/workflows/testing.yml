@@ -24,11 +24,11 @@ jobs:
       - name: Run unit tests
         run: |
           poetry run python -m unittest discover
-      - name: Codecov
-        run: |
-          pip install coverage
-          coverage run -m unittest discover
-      - name: Upload Coverage to Codecov
-        uses: codecov/codecov-action@v2
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      # - name: Codecov
+      #   run: |
+      #     pip install coverage
+      #     coverage run -m unittest discover
+      # - name: Upload Coverage to Codecov
+      #   uses: codecov/codecov-action@v2
+      #   env:
+      #     CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
