@@ -1,6 +1,6 @@
 FROM python:slim-bullseye
 
-WORKDIR /root/waka-readme/
+WORKDIR /root/waka2readme/
 
 ENV PYTHONFAULTHANDLER=1 \
     PYTHONUNBUFFERED=1 \
